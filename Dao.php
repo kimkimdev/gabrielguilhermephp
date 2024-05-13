@@ -3,16 +3,16 @@ class Dao {
 
 private $dsn = "mysql:host=localhost;dbname=banco";
 private $username = "root";
-private$password = "";
+private $password = "";
 private $pdo;
 
 public function __construct(){
     $this->pdo = new PDO($this->dsn, $this->username, $this->password);
 }
 
-public function insertLogin($usuario,$senha){
+public function insertLogin($usuario,$senha,$email){
     try {
-        $stmt = $this->pdo->query("insert into login values (null,'$usuario','$senha')");
+        $stmt = $this->pdo->query("insert into usuarios values (null,'$usuario','$senha','$email')");
        } catch(PDOException $ex){
            echo "<pre>";
          echo $this->pdo->errorInfo()[2];

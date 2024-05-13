@@ -1,26 +1,18 @@
 <?php
-include_once $dao
+include_once "Dao.php";
 
-$conn = new mysqli($servername, $username, $password, $database);
+$dao = new Dao();
+var_dump($dao);
 
-
-if ($conn->connect_error) {
-    die("Falha na conexão: " . $conn->connect_error);
-}
+//if ($dao->connect_error) {
+//    die("Falha na conexão: " . $dao->connect_error);
+//}
 
 
 $nome = $_POST['nome'];
 $email = $_POST['email'];
 $senha = password_hash($_POST['senha'], PASSWORD_DEFAULT);
 
+$dao->insertLogin($nome,$senha,$email);
 
-$sql = "INSERT INTO usuarios (nome, email, senha) VALUES ('$nome', '$email', '$senha')";
-
-if ($conn->query($sql) === TRUE) {
-    echo "Usuário cadastrado com sucesso!";
-} else {
-    echo "Erro ao cadastrar o usuário: " . $conn->error;
-}
-
-$conn->close();
 ?>
