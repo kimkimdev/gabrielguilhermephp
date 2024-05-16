@@ -4,10 +4,6 @@ include_once "Dao.php";
 $dao = new Dao();
 var_dump($dao);
 
-//if ($dao->connect_error) {
-//    die("Falha na conexão: " . $dao->connect_error);
-//}
-
 
 $nome = $_POST['nome'];
 $email = $_POST['email'];
