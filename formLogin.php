@@ -6,8 +6,9 @@
         
             <div class="mt-3">
                 
-                <form action="verificaLogin.php" method="post">
+                <form action="pagina.php" method="post">
                     <div class="mb-3">
+                        <img src="imgs/imgs/sailor.gif" alt="">
                         <label for="usuario" class="form-label">Usuario</label>
                         <input type="text" name="usuario" class="form-control" id="exampleInputEmail1" aria-describedby="">
                     </div>

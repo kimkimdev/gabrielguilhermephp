@@ -96,13 +96,13 @@ Em resumo, Lithia Beryl é uma personagem poderosa e versátil em Elsword, capaz
     <!-- Imagens do Carrossel -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="\sitecomgui\imgs\ahri_concept.jpg" alt="Imagem 1">
+        <img src="imgs/imgs/ahri_sg.jpg" alt="Imagem 1">
       </div>
       <div class="carousel-item">
-        <img src="\sitecomgui\imgs\ahri_sg.jpg" alt="Imagem 2">
+        <img src="imgs/imgs/ahri_elder.jpg" alt="Imagem 2">
       </div>
       <div class="carousel-item">
-        <img src="\sitecomgui\imgs\ahri_elder.jpg" alt="Imagem 3">
+        <img src="imgs/imgs/ahri_concept.jpg" alt="Imagem 3">
       </div>
     </div>
 

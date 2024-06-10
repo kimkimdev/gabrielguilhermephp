@@ -1,4 +1,7 @@
 <?php
+include "navbar.php";
+include "cabecalho.php";
+include "rodape.php";
 require_once "Dao.php";
 
 ?>
@@ -24,5 +27,4 @@ require_once "Dao.php";
         
         <button type="submit">Cadastrar</button>
     </form>
-</body>
-</html>
+

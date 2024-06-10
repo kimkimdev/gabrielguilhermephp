@@ -1,0 +1,1 @@
+create table usuarios (id INT AUTO_INCREMENT PRIMARY KEY,nome varchar(25)not null,email varchar(50)not null,senha varchar(18));
