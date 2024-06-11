@@ -25,12 +25,12 @@ public function listar(){
     
 }
 public function exibirUsuario($id){
-    $stmt = $this->pdo->query("select * from login where id=".$id);
+    $stmt = $this->pdo->query("select * from usuarios where id=$id");
     return $stmt;
 } 
 
 public function verificaLogin($usuario,$senha){
-    $stmt = $this->pdo->query("Select * from login where usuario='$usuario' and senha='$senha'");
+    $stmt = $this->pdo->query("Select * from usuarios where usuario='$usuario' and senha='$senha'");
     if($stmt->fetch()){
         header("Location: painel.php");
     } else { 

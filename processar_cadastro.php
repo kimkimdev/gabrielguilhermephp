@@ -9,6 +9,6 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 $senha = password_hash($_POST['senha'], PASSWORD_DEFAULT);
 
-$dao->insertLogin($nome,$senha,$email);
+$dao->insertLogin($nome,$email,$senha);
 
 ?>
