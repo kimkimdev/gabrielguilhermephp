@@ -15,9 +15,11 @@
             <a class="nav-link active" aria-current="page" href="cadastroUsuario.php">Cadastrar Usuario</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="exibirUsuarioConteudo.php">Ver usuarios.</a>
+            <a class="nav-link" href="exibirUsuario.php">Ver usuarios.</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="top10gg.php">TOP 10 GG</a>
+            <li class="nav-item">
             <a class="nav-link" href="https://www.instagram.com/qinzinho/">Instagram</a>
           </li>
           <li class="nav-item">
