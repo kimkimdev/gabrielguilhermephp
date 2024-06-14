@@ -11,14 +11,18 @@
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+         
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="cadastroUsuario.php">Cadastrar Usuario</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="exibirUsuario.php">Ver usuarios.</a>
+            <a class="nav-link" href="exibirUsuario.php">Ver Perfil</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="top10gg.php">TOP 10 GG</a>
+            <li class="nav-item">
+            <li class="nav-item">
+            <a class="nav-link" href="toppersonagens.php">Personagens</a>
+            <li class="nav-item">
+            <li class="nav-item">
+            <a class="nav-link" href="playlist.php">PlayList</a>
             <li class="nav-item">
             <a class="nav-link" href="https://www.instagram.com/qinzinho/">Instagram</a>
           </li>

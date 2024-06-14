@@ -17,9 +17,14 @@
                         <input type="password" name="senha" class="form-control" id="senha">
                     </div>
                     <div class="text-center">
-                        <button type="submit" class="  btn btn-primary mt-3">Entrar</button>
+                     <button type="submit" class="  btn btn-primary mt-3">Entrar</button>
+                    
                     </div>
-
+                    <div class="text-center">
+                     <button type="submit" class="  btn btn-primary mt-3"><a class="nav-link active" aria-current="page" href="cadastroUsuario.php">Cadastrar</a></button>
+                    
+                    </div>
+                    
                 </form>
             </div>
 
