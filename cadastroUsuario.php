@@ -1,5 +1,5 @@
 <?php
-include "navbar.php";
+
 include "cabecalho.php";
 include "rodape.php";
 require_once "Dao.php";

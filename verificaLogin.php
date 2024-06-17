@@ -1,3 +1,3 @@
 <?php
-echo "logado"
+include_once "carousel.php";
 ?>

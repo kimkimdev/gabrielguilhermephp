@@ -9,7 +9,8 @@
     </div>
     <div class="container-buttons">
       <div class="social-midias">
-        <a href="playlist.php"><img class="icone" src="imgs/spotify.svg" alt=""></a>
+        <a href="https://open.spotify.com/playlist/3mulSxEckGyYrQsTQyG2IG?si=dc676eee0a874843
+"><img class="icone" src="imgs/spotify.svg" alt=""></a>
         <a href="https://www.instagram.com/qinzinho/"><img class="icone" src="imgs/instagram.svg" alt=""></a>
       </div>
       <div>
