@@ -1,34 +1,8 @@
 
 
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-   
-    .carousel-inner img {
-      width: 100%;
-      height: 500px; 
-      object-fit:scale-down;
-      
-    }
-    .h2central {
-        
-    text-align: center;
-}
-.pdestaque{
-    text-align: center;
-    font-size: 25px;
-}
-.pcentral{
-    text-align: center;
-}
-.textobox{
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 180px;
-  margin-left: 180px;
-  
-}
-
-  </style>
+  <link rel="stylesheet" href="css/personagens.css">
+ 
 </head>
 <body>
 
@@ -70,17 +44,16 @@
 
 <br>
 <div class="textobox">
-<p class ="pdestaque">	
-"As long as there are enough rewards, I can complete any missions perfectly!"</p>
-<p class ="pcentral">Lithia Beryl é uma personagem do jogo Elsword, um MMORPG de ação. Ela é uma Mestra de Energia, uma classe especializada em manipulação de energia mágica. Lithia é conhecida por sua agilidade e versatilidade em combate, usando sua habilidade para controlar a energia em diversas formas para atacar seus inimigos.
+  <p class ="pdestaque">	
+  "As long as there are enough rewards, I can complete any missions perfectly!"</p>
+  <p class ="pcentral">Lithia Beryl é uma personagem do jogo Elsword, um MMORPG de ação. Ela é uma Mestra de Energia, uma classe especializada em manipulação de energia mágica. Lithia é conhecida por sua agilidade e versatilidade em combate, usando sua habilidade para controlar a energia em diversas formas para atacar seus inimigos.
 
-Sua história no jogo envolve uma busca por poder e conhecimento, já que ela está em constante busca por aprimorar suas habilidades mágicas. Como uma Mestra de Energia, ela pode conjurar poderosos feitiços e lançar ataques devastadores contra seus oponentes. Sua presença em batalha é marcada pela sua habilidade de lançar rajadas de energia e realizar movimentos ágeis e precisos.
+  Sua história no jogo envolve uma busca por poder e conhecimento, já que ela está em constante busca por aprimorar suas habilidades mágicas. Como uma Mestra de Energia, ela pode conjurar poderosos feitiços e lançar ataques devastadores contra seus oponentes. Sua presença em batalha é marcada pela sua habilidade de lançar rajadas de energia e realizar movimentos ágeis e precisos.
 
-Além de suas habilidades ofensivas, Lithia também possui técnicas defensivas que a tornam uma adversária formidável. Ela pode criar barreiras de energia para se proteger e até mesmo usar a energia para curar a si mesma e aos seus aliados.
+  Além de suas habilidades ofensivas, Lithia também possui técnicas defensivas que a tornam uma adversária formidável. Ela pode criar barreiras de energia para se proteger e até mesmo usar a energia para curar a si mesma e aos seus aliados.
 
-Em resumo, Lithia Beryl é uma personagem poderosa e versátil em Elsword, capaz de enfrentar qualquer desafio com sua maestria no controle da energia mágica.</p>
-</div>
-<br>
+  Em resumo, Lithia Beryl é uma personagem poderosa e versátil em Elsword, capaz de enfrentar qualquer desafio com sua maestria no controle da energia mágica.</p>
+  </div>
 
 <div class="container">
   <h2 class="h2central">Ahri</h2>
