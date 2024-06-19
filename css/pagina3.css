@@ -1,0 +1,37 @@
+:root {
+    --primary-color: #F17CA1;
+    --secondary-color: #FFC0CB;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  h1 {
+    color: var(--primary-color);
+  }
+  p {
+    color: #333;
+    line-height: 1.6;
+  }
+  .profile-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }

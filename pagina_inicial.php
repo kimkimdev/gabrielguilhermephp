@@ -5,24 +5,29 @@
     <div class="container">
         <div class="box">
             <a href="pagina1.html">
-                <img src="imgs/exemplo.jpg" alt="Imagem 1">
+                <img src="imgs/ew.gif" alt="Imagem 1">
             </a>
-            <h1 class="title-article">Título Lorem Ipsum</h1>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <h1 class="title-article">Video Semanal </h1>
+            <p class="text">A página de vídeo semanal propõe apresentar um novo vídeo a cada semana, 
+                proporcionando aos visitantes uma experiência dinâmica e atualizada regularmente. Cada vídeo será c
+                uidadosamente selecionado para oferecer conteúdo variado e interessante, mantendo a página sempre 
+                relevante e atraente para os usuários.</p>
         </div>
         <div class="box">
             <a href="pagina2.html">
-                <img src="imgs/exemplo.jpg" alt="Imagem 2">
+                <img src="imgs/ras.gif" alt="Imagem 2">
             </a>
-            <h1 class="title-article">Título Lorem Ipsum</h1>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <h1 class="title-article">Quiz</h1>
+            <p class="text"> A página de quiz oferece uma experiência interativa onde os usuários podem testar seus conhecimentos
+                 através de perguntas variadas e desafios divertidos. É um espaço dinâmico para aprender de forma lúdica e engajante. </p>
         </div>
         <div class="box">
-            <a href="pagina3.html">
-                <img src="imgs/exemplo.jpg" alt="Imagem 3">
+            <a href="pagina3.php">
+                <img src="imgs/tp.gif" alt="Imagem 3">
             </a>
-            <h1 class="title-article">Título Lorem Ipsum</h1>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <h1 class="title-article">De quem é esse site?</h1>
+            <p class="text">Descubra quem é o DEV atraves do site.
+            </p>
         </div>
     </div>
 </body>

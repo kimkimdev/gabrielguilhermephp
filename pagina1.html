@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video da Semana</title>
+<link rel="stylesheet" href="css/pagina1.css">
+
+</head>
+<body>
+  <div class="video-container">
+    <h2>Video Semanal</h2>
+    <video controls>
+      <source src="imgs/videosemanal.mp4" type="video/mp4">
+      Seu navegador não suporta vídeo HTML5.
+    </video>
+    
+    <div class="comment-section">
+      <h3>Deixe um comentário:</h3>
+      <textarea id="comment" rows="4" placeholder="Escreva seu comentário..." required></textarea>
+      <button onclick="submitComment()">Enviar Comentário</button>
+    </div>
+    
+    <div class="comments-list" id="commentsList">
+      <h3>Comentários:</h3>
+      <!-- Aqui os comentários serão exibidos dinamicamente -->
+    </div>
+    
+    <div class="reaction-section">
+      <h3>Reações:</h3>
+      <button onclick="likeVideo()">Like</button>
+      <span id="likeCount">0</span>
+    </div>
+  </div>
+
+  <script>
+    let likeCounter = 0;
+
+    function likeVideo() {
+      likeCounter++;
+      document.getElementById('likeCount').textContent = likeCounter;
+    }
+
+    function submitComment() {
+      let commentText = document.getElementById('comment').value;
+      if (commentText.trim() !== '') {
+        // Criar um novo elemento de comentário
+        let commentElement = document.createElement('div');
+        commentElement.classList.add('comment');
+        commentElement.innerHTML = `
+          <p class="comment-author">Usuário:</p>
+          <p>${commentText}</p>
+        `;
+        
+        // Adicionar o comentário à lista de comentários
+        let commentsList = document.getElementById('commentsList');
+        commentsList.appendChild(commentElement);
+
+        // Limpar o campo de texto após enviar o comentário
+        document.getElementById('comment').value = '';
+
+        // Exibir mensagem de sucesso (pode ser substituído por uma notificação mais sofisticada)
+        alert('Comentário enviado com sucesso!');
+      } else {
+        alert('Por favor, escreva um comentário antes de enviar.');
+      }
+    }
+  </script>
+</body>
+</html>
