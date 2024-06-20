@@ -1,1 +1,13 @@
-create table usuarios (id INT AUTO_INCREMENT PRIMARY KEY,nome varchar(25)not null,email varchar(50)not null,senha varchar(18));
+create table usuarios (id INT AUTO_INCREMENT PRIMARY KEY,
+nome varchar(25)not null,email varchar(50)not null,senha varchar(18));
+
+ CREATE TABLE quiz (
+    ->     id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     signo VARCHAR(50) NOT NULL,
+    ->     idade INT NOT NULL,
+    ->     cor_favorita VARCHAR(50) NOT NULL,
+    ->     hobbies VARCHAR(255) NOT NULL,
+    ->     personagem_iden VARCHAR(100) NOT NULL,
+    ->     username_instagram VARCHAR(100) NOT NULL,
+    ->     data_submissao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    -> );
